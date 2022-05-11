@@ -41,7 +41,7 @@ public class Produto {
     @NotNull
     private String tamanho;
 
-    private int avaliacao;
+    private Integer avaliacao;
 
     @NotNull
     private String fornecedor;
@@ -51,7 +51,7 @@ public class Produto {
     private Categoria categoria;
     
     @ManyToOne
-    @JsonIgnoreProperties("usuario")
+    @JsonIgnoreProperties("produto")
     private Usuario usuario;
 
 	public Usuario getUsuario() {
@@ -110,7 +110,7 @@ public class Produto {
 		this.tamanho = tamanho;
 	}
 
-	public int getAvaliacao() {
+	public Integer getAvaliacao() {
 		return avaliacao;
 	}
 
@@ -133,7 +133,5 @@ public class Produto {
 	public void setCategoria(Categoria categoria) {
 		this.categoria = categoria;
 	}
-
-    
 
 }
