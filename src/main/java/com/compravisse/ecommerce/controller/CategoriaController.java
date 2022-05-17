@@ -25,7 +25,7 @@ import com.compravisse.ecommerce.repository.CategoriaRepository;
 
 
 @RestController
-@RequestMapping("/categoria")
+@RequestMapping("/categorias")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CategoriaController {
 	
