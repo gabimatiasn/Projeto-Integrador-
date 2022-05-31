@@ -1,15 +1,20 @@
-<div class="container-fluid">
+<div class="container-fluid d-flex justify-content-center pt-5">
+<!-- card -->
+<div class="card" style="width: 25rem;">
+    <div class="card-body">
+        <ul class="navbar-nav ml-auto d-flex align-items-center">
+            <li class="nav-item pb-2">
+                <img src="https://i.imgur.com/WyaqWG2.png" alt="logo compravisse" width="100px" height="100px" class="img-fluid pt-2 pb-2">
+            </li>            
+        </ul>
+      <h6 class="card-subtitle mb-2 text-muted text-center text-black">Acesse a sua conta</h6>
+<!-- /card -->
 
+<!-- /forms -->
     <div class="row d-flex align-items-center">
-
         <div class="col-md-12">
-
             <div class="row d-flex justify-content-center">
-                <div class="col-md-4">
-
-                <img src="" alt="LOGO AQUI">
-
-                    <h1 class="text-center mb-8">Acesse a sua conta</h1>
+                <div class="col-md-10">
 
                     <div class="text-center">
                         <a href="">Entrar com o Facebook</a>
@@ -25,19 +30,18 @@
 
                     <div class="form-group">
                         <label for="senha">Senha</label>
+                        <p class="text-right">
+                            <a href="">Esqueceu sua senha?</a>
+                            </p>
                         <input class="form-control" type="password" name="senha" 
                         id="senha">
                     </div>
-
-                    <p class="text-right">
-                    <a href="">Esqueceu sua senha?</a>
-                    </p>
 
                     <div class="d-flex justify-content-center">
                     <button type="submit" class="btn btn-success">Entrar</button>
                     </div>
 
-                    <hr class="mt-5 mb-5">
+                    <hr class="mt-3 mb-3">
 
                     <p class="text-center">
                         Não tem uma conta? <a routerLink="/cadastrar">Cadastre-se</a>
@@ -51,3 +55,6 @@
     </div>
 
 </div>
+
+
+<!-- /forms -->
