@@ -1,0 +1,19 @@
+#img-logo{
+    background-image: url("https://imgur.com/skNXOzs");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fonte-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+
+    :root {
+        --primavera-color: #E4BDA3; 
+        --verao-color:  #C77C00;
+        --outono-color: #40311E;
+        --inverno-color: #89B0BF;
+        }
