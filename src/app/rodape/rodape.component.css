@@ -1,0 +1,42 @@
+ul.social-network{
+    list-style: none;
+    padding: 0;
+}
+
+ul.social-network li{
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+
+.fa{
+    font-size: 20pt;
+    color: white;
+    padding: 4px;
+}
+
+.fa-linkedin-square{
+    color: #0072b1;
+}
+
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  
+}
+
+.fa-github{
+    color:black;
+}
+
+.fa-twitter
+{
+    color: #1D9BF0;
+}
+
+.bg-outono{
+    background-color: #40311e;
+}
