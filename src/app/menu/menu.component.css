@@ -1,0 +1,27 @@
+.bg-inverno{
+    background-color: #89b0bf;
+}
+
+.bg-outono{
+    background-color: #40311e;
+}
+
+.bg-verao{
+    background-color: #c77c00;
+}
+
+.bg-primavera{
+    background-color: #e4bda3;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.text-color-outono{
+    color: #40311e;
+}
+
+.fs-10{
+    font-size: 10pt;
+}
